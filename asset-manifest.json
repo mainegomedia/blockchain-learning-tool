@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/mainegomedia/blockchain-learning-tool/static/css/main.95220128.css",
-    "main.js": "/mainegomedia/blockchain-learning-tool/static/js/main.6962d388.js",
-    "static/js/787.6972603a.chunk.js": "/mainegomedia/blockchain-learning-tool/static/js/787.6972603a.chunk.js",
-    "static/media/blockchain-nodes.png": "/mainegomedia/blockchain-learning-tool/static/media/blockchain-nodes.6ab5b65bc71f50c90cdd.png",
-    "static/media/mainegomedia-vector.png": "/mainegomedia/blockchain-learning-tool/static/media/mainegomedia-vector.399d864a7722e21bb1f3.png",
-    "static/media/gradient.png": "/mainegomedia/blockchain-learning-tool/static/media/gradient.628bfbcf7abdb6be9835.png",
-    "index.html": "/mainegomedia/blockchain-learning-tool/index.html",
-    "main.95220128.css.map": "/mainegomedia/blockchain-learning-tool/static/css/main.95220128.css.map",
-    "main.6962d388.js.map": "/mainegomedia/blockchain-learning-tool/static/js/main.6962d388.js.map",
-    "787.6972603a.chunk.js.map": "/mainegomedia/blockchain-learning-tool/static/js/787.6972603a.chunk.js.map"
+    "main.css": "/blockchain-learning-tool/static/css/main.597a6072.css",
+    "main.js": "/blockchain-learning-tool/static/js/main.9fcba1dd.js",
+    "static/js/787.6972603a.chunk.js": "/blockchain-learning-tool/static/js/787.6972603a.chunk.js",
+    "static/media/blockchain-nodes.png": "/blockchain-learning-tool/static/media/blockchain-nodes.6ab5b65bc71f50c90cdd.png",
+    "static/media/mainegomedia-vector.png": "/blockchain-learning-tool/static/media/mainegomedia-vector.399d864a7722e21bb1f3.png",
+    "static/media/gradient.png": "/blockchain-learning-tool/static/media/gradient.628bfbcf7abdb6be9835.png",
+    "index.html": "/blockchain-learning-tool/index.html",
+    "main.597a6072.css.map": "/blockchain-learning-tool/static/css/main.597a6072.css.map",
+    "main.9fcba1dd.js.map": "/blockchain-learning-tool/static/js/main.9fcba1dd.js.map",
+    "787.6972603a.chunk.js.map": "/blockchain-learning-tool/static/js/787.6972603a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.95220128.css",
-    "static/js/main.6962d388.js"
+    "static/css/main.597a6072.css",
+    "static/js/main.9fcba1dd.js"
   ]
 }
