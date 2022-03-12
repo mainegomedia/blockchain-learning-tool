@@ -1,5 +1,6 @@
 {
   "name": "blockchain-learning-tool",
+  "homepage": "https://mainegomedia.github.io/blockchain-learning-tool/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,15 +9,19 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.25.0",
     "bootstrap": "^5.1.3",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-bootstrap": "^2.1.1",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
+    "react-spring": "^9.4.4",
     "request-promise": "^4.2.6",
     "web-vitals": "^2.1.3"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

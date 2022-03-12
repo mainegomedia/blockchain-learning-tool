@@ -7,22 +7,28 @@ import { useState, useEffect } from 'react'
 import TableArea from './Components/TableArea';
 import CoinGeckoApi from './Components/coinMarketCapApiTest';
 import Footer from './Components/footer';
+import { useSpring, animated, transition } from 'react-spring';
 
 function App() {
 
+  //Change the opacity of the left hand block
+
+  const style2 = useSpring({
+    
+  })
 
   //changes the desciptions on the right side of the screen
   const [description, setDescription] = useState("Click the buttons to see how the blockchain functions. It's actually fairly simple.")
 
   function registerNodeDescription(){
       setDescription
-      ("A node is basically any computer system on the blockchain used to mine bitcoin. See the highlighted node created.")
+      ("A node is basically any computer on the blockchain used to mine bitcoin. See the highlighted node created. This is called a Genesis Block which is the first block in your blockchain")
   }
   function miningDescription(){
-      setDescription("Mining is the process by which cryptocurrency is created, maintained and secured. See the new block mined.")
+      setDescription("Mining is the process by which cryptocurrency is created, maintained and secured. See the new block you just mined.")
   }
   function createTransactionDescription(){
-      setDescription("Transactions are any changes made to the blockchain ledger. See the transaction has been added to the block.")
+      setDescription("Transactions are any changes made to the blockchain ledger. See the transactions that have been added to your block.")
   }
 //changes the descriptions on the left side of the screen
   const [ blockchain, changeBlockchain] = useState
@@ -176,8 +182,8 @@ function App() {
                           <Button text = 'Mine Block' />
                           <Button text = 'Create Transaction' /> */}
                           <button class="btn btn-primary" type="button" onClick = { () => {registerNodeDescription(); addNode(); }} > Register Node </button>
-                          <button class="btn btn-primary" type="button" onClick = { () => {createTransactionDescription(); addTransaction() }}> Create Transaction </button>
-                          <button class="btn btn-primary" type="button" onClick = { () => {miningDescription(); addMinedBlock() }}> Mine Block </button>
+                          <button class="btn btn-primary" type="button" onClick = { () => {createTransactionDescription(); addTransaction(); }}> Create Transaction </button>
+                          <button class="btn btn-primary" type="button" onClick = { () => {miningDescription(); addMinedBlock(); }}> Mine Block </button>
 
                         </div>
                         

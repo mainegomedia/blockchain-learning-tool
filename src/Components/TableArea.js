@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { Context } from './Store';
+import { useSpring, animated, Transition } from 'react-spring';
 // import axios from 'axios';
 // import { useState, useEffect } from 'react';
 // import Store from './Store';
@@ -12,8 +13,21 @@ const TableArea = () => {
     const [ tetherCoinPrice, setTetherPrice ] = React.useContext(Context)['value3'];
     const [ binanceCoinPrice, setBinancePrice ] = React.useContext(Context)['value4'];
     const [ usdcCoinPrice, setUSDCPrices ] = React.useContext(Context)['value5'];
-    
-  return <div class="p-3 border bg-light">
+
+    const style1 = useSpring({
+        from: { opacity: 0, x: -100 },
+        to: { opacity: 1, x: 0 },
+
+        config: { duration: 500 }
+    })
+
+
+  
+  return (
+  
+  
+<animated.div style={style1}>
+  <div className="p-3 border bg-light">
             <table class="table">
             <thead class="thead-dark">
                 <tr>
@@ -50,7 +64,9 @@ const TableArea = () => {
                 </tr>
             </tbody>
             </table>
-        </div>;
+        </div>
+</animated.div>
+        );
 
 };
 
