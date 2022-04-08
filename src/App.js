@@ -28,7 +28,7 @@ function App() {
       setDescription("Mining is the process by which cryptocurrency is created, maintained and secured. See the new block you just mined.")
   }
   function createTransactionDescription(){
-      setDescription("Transactions are any changes made to the blockchain ledger. See the transactions that have been added to your block.")
+      setDescription("Transactions are any changes made to the blockchain ledger. See the transactions that have been added to your1 block.")
   }
 //changes the descriptions on the left side of the screen
   const [ blockchain, changeBlockchain] = useState
@@ -37,7 +37,7 @@ function App() {
   function addNode(){
       changeBlockchain
     (<p>
-      <mark>
+      <mark><b>
       "chain": [ <br></br>
       
       "index": 1, <br></br>
@@ -53,7 +53,7 @@ function App() {
       "networkNodes": <br></br>
       "http://localhost:3002" <br></br>
       ] [ <br></br>
-        </mark>
+      </b></mark>
     </p>) 
   }
 
@@ -71,7 +71,7 @@ function App() {
         "previousBlockHash": "0"  <br></br>
         
         ], [ <br></br>
-        <mark>"pendingTransactions": <br></br>
+        <mark><b>"pendingTransactions": <br></br>
         
         "amount": 895, <br></br>
         "sender": "EIOJADSKFJAKDFSJI3O4E", <br></br>
@@ -82,7 +82,7 @@ function App() {
         "sender": "OWERIJDFI47595495484", <br></br>
         "recipient": "JWIOUEFJ375984984359" <br></br>
         
-        ],</mark>
+        ],</b></mark>
         
         [ <br></br>
         "currentNodeUrl": "http://localhost:3001", <br></br>
@@ -105,7 +105,7 @@ function App() {
         "hash": "0", <br></br>
         "previousBlockHash": "0" <br></br>
           [ <br></br>
-        <mark>
+        <mark><b>
         "index": 2, <br></br>
         "timestamp": 1642649299308, <br></br>
         "transactions": <br></br>
@@ -146,7 +146,7 @@ function App() {
         "sender": "00", <br></br>
         "recipient": "4408e4f0799e11ecba13c7699c4ece0d", <br></br>
         "transactionId": "06bae55079a111ecba13c7699c4ece0d" <br></br>
-        </mark>
+        </b></mark>
         ], [ <br></br>
         "currentNodeUrl": "http://localhost:3001", <br></br>
         "networkNodes": [] <br></br>
@@ -202,7 +202,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <Footer />
+            {/* <Footer /> */}
     </div>
   );
 }

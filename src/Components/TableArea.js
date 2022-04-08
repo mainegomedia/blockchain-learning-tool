@@ -28,6 +28,7 @@ const TableArea = () => {
   
 <animated.div style={style1}>
   <div className="p-3 border bg-light">
+  <strong>MARKET UPDATES</strong>
             <table class="table">
             <thead class="thead-dark">
                 <tr>
