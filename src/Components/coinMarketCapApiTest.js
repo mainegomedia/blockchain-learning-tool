@@ -19,8 +19,6 @@ const CoinGeckoApi = () => {
     )     
 }
 
-
-
 export default CoinGeckoApi;
 
 
