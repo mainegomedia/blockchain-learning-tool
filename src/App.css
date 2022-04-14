@@ -65,6 +65,6 @@ p {
   height: 400px;
 }
 
-/* body {
-  overflow: auto;
-} */
+body {
+  overflow: scroll;
+}

@@ -18,17 +18,17 @@ function App() {
   })
 
   //changes the desciptions on the right side of the screen
-  const [description, setDescription] = useState("Click the buttons to see how the blockchain functions. It's actually fairly simple.")
+  const [description, setDescription] = useState("Click the buttons to see how the blockchain functions. It's actually fairly simple. Your computers node woould http://localhost:3002 ")
 
   function registerNodeDescription(){
       setDescription
-      ("A node is basically any computer on the blockchain used to mine bitcoin. See the highlighted node created. This is called a Genesis Block which is the first block in your blockchain")
+      ("A node is basically any computer on the blockchain used to mine a coin. See the highlighted code created to the left. This is called a Genesis Block which is the first block in your blockchain")
   }
   function miningDescription(){
-      setDescription("Mining is the process by which cryptocurrency is created, maintained and secured. See the new block you just mined.")
+      setDescription("Mining is the process by which cryptocurrency is created, maintained and secured. See the new block you just mined!")
   }
   function createTransactionDescription(){
-      setDescription("Transactions are any changes made to the blockchain ledger. See the transactions that have been added to your1 block.")
+      setDescription("Transactions are any changes made to the blockchain ledger. See the transactions that have been added to your block.")
   }
 //changes the descriptions on the left side of the screen
   const [ blockchain, changeBlockchain] = useState
